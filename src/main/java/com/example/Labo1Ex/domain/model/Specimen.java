@@ -6,7 +6,6 @@ import lombok.RequiredArgsConstructor;
 
 @Data
 @Builder
-@RequiredArgsConstructor
 public class Specimen {
     private String name;
     private BaseVirus baseVirus;
